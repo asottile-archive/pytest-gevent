@@ -35,4 +35,6 @@ this calls `gevent.monkey.patch_all(...)` and then `pytest.main()`
 
 ```bash
 python -m gevent.monkey $(which pytest) ...
+# with gevent 1.5+ you'll be able to do
+# python -m gevent.monkey --module pytest ...
 ```
