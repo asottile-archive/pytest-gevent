@@ -1,3 +1,13 @@
+# DEPRECATED
+
+This is no longer needed as of `gevent>=1.5`, you can now use:
+
+```bash
+python -m gevent --module pytest ...
+```
+
+___
+
 [![Build Status](https://dev.azure.com/asottile/asottile/_apis/build/status/asottile.pytest-gevent?branchName=master)](https://dev.azure.com/asottile/asottile/_build/latest?definitionId=54&branchName=master)
 [![Azure DevOps coverage](https://img.shields.io/azure-devops/coverage/asottile/asottile/54/master.svg)](https://dev.azure.com/asottile/asottile/_build/latest?definitionId=54&branchName=master)
 
